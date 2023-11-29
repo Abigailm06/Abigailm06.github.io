@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<h1>Sign-Up Form for Food Blog</h1>
+<p>This form will be used to create an account and collece information from visitors to the Food Blog</p>
+	
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+ <label for="firstname"> First Name: </label>
+	<input name="firstname" type="text" required="required" id="firstname">
+	<br>
+	<label for="lastname"> Last Name: </label>
+	<input name="lastname" type="text" required="required" id="lastname">
+	<br>
+ <label for="username">Username: </label>
+	<input name="username" type="text" required="required" id="username" placeholder="6-10 words only" pattern="[A-Za-Z] {6-10}" >
+	<br>
+ <label for="Password">Password: </label>
+  <input name="password" type="password" required="required" id="password" placeholder="6-10 words only" pattern="[0-9A-Za-z] 6-10}" >
+	<br>
+ <label for="DOB">Date Of Birth: </label>
+  <input name="DOB" type="date" required="required" id="DOB">
+	<br>
+	<label for="Phonenumber">Phone #: </label>
+  <input name="phonenumber" type="number" required="required" id="phonenumber">
+	<br>
+	<label for="email">Email: </label>
+  <input name="email" type="email" required="required" id="email">
+	<br>
+  <label for="personalurl">Personal URL: </label>
+	<input name="personalurl" type="url" id="personalurl">
+	<br>
+	<label for="interests">Interests: </label>
+  <input name="interests" type="<input type=checkbox" required="required" id="interests">
+	<br>
+	<input type="submit"><input type="reset">
+  </form>
+</body>
+</html>
